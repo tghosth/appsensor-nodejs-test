@@ -1,0 +1,22 @@
+{
+  "name": "appsensor-nodejs-test",
+  "version": "1.0.0",
+  "description": "Test program for appsensor-nodejs module",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tghosth/appsensor-nodejs-test.git"
+  },
+  "author": "Josh Grossman <janda26@hotmail.com> (https://joshcgrossman.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tghosth/appsensor-nodejs-test/issues"
+  },
+  "homepage": "https://github.com/tghosth/appsensor-nodejs-test#readme",
+  "dependencies": {
+    "appsensor-nodejs": "^1.0.0"
+  }
+}
