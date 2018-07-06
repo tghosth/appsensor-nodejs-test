@@ -1,5 +1,5 @@
-var appsensornodejs = require("../appsensor-nodejs");
-//var appsensornodejs = require("appsensor-nodejs");
+//var appsensornodejs = require('../appsensor-nodejs');
+var appsensornodejs = require('appsensor-nodejs');
 var points =  appsensornodejs.DetectionPoints
 
 
