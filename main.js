@@ -1,5 +1,5 @@
-//var appsensornodejs = require('../appsensor-nodejs');
-var appsensornodejs = require('appsensor-nodejs');
+var appsensornodejs = require('../appsensor-nodejs');
+//var appsensornodejs = require('appsensor-nodejs');
 var points =  appsensornodejs.DetectionPoints
 
 
@@ -10,10 +10,12 @@ console.log(appsensornodejs.AppSensorURL());
 
 for (i=1; i<=9; i++)
 {
-    for (j=1; j<=10; j++)
-    {
-        appsensornodejs.SendEvent("fred", points.IE1)
-    }
+    console.log(appsensornodejs.SendEvent("fred", points.IE1));
+}
+
+for (j=1; j<=10; j++)
+{
+    console.log(appsensornodejs.SendEvent("bob", points.AE4));
 }
 
 
