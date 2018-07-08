@@ -24,9 +24,9 @@ for (j=1; j<=30; j++)
 
 
 setTimeout(function() {
-    appsensornodejs.GetResponses(function(string) 
+    appsensornodejs.GetResponses(function(responseObj) 
     {
-            console.log(`Response: ${string}`);
+            console.log(`Response: ${JSON.stringify(responseObj)}`);
     });
 }, 40000);
 
