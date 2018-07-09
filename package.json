@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/tghosth/appsensor-nodejs-test#readme",
   "dependencies": {
-    "appsensor-nodejs": "^1.0.2"
+    "appsensor-nodejs": "^1.0.3"
   }
 }
